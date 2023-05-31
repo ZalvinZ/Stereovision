@@ -3,8 +3,11 @@ creating a stereovision system
 
 Dependencies:
 numpy
+
 Python 3.5.3 or above
+
 OpenCV 4.1.1 (pre-compiled, 'pip' from Python Wheels)
+
 StereoVision lib 1.0.3 (https://github.com/erget/StereoVision)
 
 Cuurent Issue:
