@@ -8,6 +8,10 @@ The image input does not go into the stereocalibrator function.
 
 A successful retified image will align both images pixel-to-pixel.
 
+![image](https://github.com/ZalvinZ/Stereovision/assets/26739762/6550ac54-8d2c-474b-b0c3-72b75a0b7f8a)
+
+
 A successful disparity mapping will look like this:
+
 ![image](https://github.com/ZalvinZ/Stereovision/assets/26739762/01dafc81-90fd-41b7-888d-eaf1ef70ec91)
 
