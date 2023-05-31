@@ -1,7 +1,8 @@
 # Stereovision
 creating a stereovision system
 
-Dependencies:
+**Dependencies:**
+
 numpy
 
 Python 3.5.3 or above
