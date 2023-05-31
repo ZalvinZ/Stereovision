@@ -11,10 +11,13 @@ OpenCV 4.1.1 (pre-compiled, 'pip' from Python Wheels)
 
 StereoVision lib 1.0.3 (https://github.com/erget/StereoVision)
 
-Cuurent Issue:
-Trying to get the rectify.py code working.
-The code takes the undistorted_camer1 and undistorted_camera2.png images and goes through rectification when the images are realigned by featuring matching. The error that I get is as following: TypeError: Expected Ptr<cv::UMat> for argument '%s
-The image input does not go into the stereocalibrator function.
+**Current Issue:**
+
+Trying to get the rectify.py and/or rectification1.py code working.
+
+The rectification1.py codee takes the undistorted_camer1 and undistorted_camera2.png images and goes through rectification where the images are realigned by featuring matching. The error that I get is as following: TypeError: Expected Ptr<cv::UMat> for argument '%s . The parameters of the intrinsic and extrinsic cameras are already identified and placed in the code. 
+
+Similarily, in rectify.py the the code calibrates as well as rectiy the images. It takes in the undistorted images from left (undistorted_left) and right (undistorted_right) images, calibrates the camera and undistorts the images, then rectifies the last pair of images. the calibration parameters and rectification parameters are saved in a file called calib_result. The error I am getting is as follows: TypeError: Expected Ptr<cv::UMat> for argument '%s.
 
 A successful retified image will align both images pixel-to-pixel.
 
